@@ -1,0 +1,17 @@
+.banner_wrap{
+	position: relative;
+	top: 0px;
+	height: 625px;
+}
+.banner_wrap .text2{
+	background: url(../images/20th-text.png) no-repeat center;
+	position: absolute;
+	height:170px;
+	width:  1486px;
+	left: 50%;
+	top: 0px;
+	margin-left: -743px;
+	margin-top: 286px;
+	text-indent: -9999px;
+
+}

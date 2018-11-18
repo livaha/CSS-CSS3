@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body,button,input,select,textarea {
+    font: 12px/1.5 tahoma, 'PingFang SC', 'microsoft yahei', arial, 'helvetica neue', 'hiragino sans gb', sans-serif
+}
+
+
+article,aside,body,details,figcaption,figure,footer,header,hgroup,html,iframe,menu,nav,section {
+    display: block
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+img {
+    display: inline-block;
+    vertical-align: bottom;
+    -ms-interpolation-mode: bicubic
+}
+
+ol,ul {
+    list-style: none
+}
+
+li,textarea {
+    vertical-align: top
+}
+
+textarea {
+    overflow: auto
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+a:active {
+    background-color: transparent
+}
+
+a:active,a:hover,a:link,a:visited {
+    outline: 0
+}
+
+button,
+input[type=button],
+input[type=submit] {
+    cursor: pointer
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default
+}
+
+
+audio,canvas,video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+fieldset,iframe,img {
+    border: 0
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    visibility: hidden
+}
+.clearfix {
+    zoom: 1
+}
+.wrap{
+	height: 1800px;
+	background-color: #ccc;/*test*/
+}
+.head_wrap{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	height: 60px;
+	background-color: #0457b7;/*test*/
+	z-index: 9999;
+}
+.head{
+	position: relative;
+	height: 100%;
+}
+.head .logo{
+	position: absolute;
+	background: url('../images/logo.png') no-repeat;
+	bottom: 0px;
+	left: 110px;
+	width: 220px;
+	height: 40px;
+	text-indent: -9999px;
+	overflow: hidden;
+
+}
+.head .menu_list{
+	position: absolute;
+	right: 200px;
+	bottom: 12px;
+}
+.menu_list ul{
+
+}
+.menu_list li{
+	display: inline-block;
+	font-size: 16px;
+	text-align: center;
+	line-height: 16px;
+	padding: 0px 25px;
+	color: #fff;
+	border-right: solid 1px #4f89cc;
+}
